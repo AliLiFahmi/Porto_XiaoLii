@@ -81,7 +81,7 @@
 </template>
 
 <script setup>
-import logoImage from "../assets/logo.png"
+import logoImage from "../assets/Logo.png"
 import burgerMenu from "../assets/burgers.svg";
 import closeMenu from "../assets/closemenu.svg";
 import { ref, onMounted, onUnmounted } from "vue";
