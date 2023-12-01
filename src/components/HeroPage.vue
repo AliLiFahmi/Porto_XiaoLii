@@ -120,7 +120,7 @@
 </template>
 
 <script setup>
-import hero from "../assets/hero.png";
+import hero from "../assets/Hero.png";
 const emailAddress = "alilifah05@gmail.com";
 const socialMedia = [
   {
