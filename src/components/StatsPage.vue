@@ -7,11 +7,6 @@
         v-for="item in items"
         :key="item.title"
         class="px-5 xl:px-9 w-full md:w-1/2 lg:w-1/4 mb-14"
-        data-aos="fade-right"
-        data-aos-offset="250"
-        :data-aos-delay="item.aosDelay"
-        :data-aos-duration="item.aosDuration"
-        data-aos-easing="ease-in-out"
       >
         <div :class="[item.outlineClass, 'relative rounded-tr-3xl']">
           <span class="bg-redcake -top-6 left-7 absolute rounded-sm px-4 py-2">
@@ -41,8 +36,6 @@ const items = [
     outlineClass: "outline-2 outline-redcake outline-dashed",
     iconClass: "fa-solid text-xl xl:text-3xl text-ghost fa-briefcase",
     iconSize: "xl:text-3xl",
-    aosDelay: 400,
-    aosDuration: 1000,
   },
   {
     title: "Years",
@@ -50,8 +43,6 @@ const items = [
     outlineClass: "outline-2 outline-redcake outline-dashed",
     iconClass: "fa-solid fa-calendar-days text-xl xl:text-3xl text-ghost",
     iconSize: "xl:text-3xl",
-    aosDelay: 800,
-    aosDuration: 1000,
   },
   {
     title: "Achievements",
@@ -59,8 +50,6 @@ const items = [
     outlineClass: "outline-2 outline-redcake outline-dashed",
     iconClass: "fa-solid fa-award text-ghost text-xl xl:text-3xl",
     iconSize: "xl:text-3xl",
-    aosDelay: 1200,
-    aosDuration: 1000,
   },
   {
     title: "Study Case",
@@ -68,8 +57,6 @@ const items = [
     outlineClass: "outline-2 outline-redcake outline-dashed",
     iconClass: "fa-solid text-ghost text-lg fa-lightbulb xl:text-3xl",
     iconSize: "xl:text-3xl",
-    aosDelay: 1600,
-    aosDuration: 1000,
   },
 ];
 </script>

@@ -6,30 +6,15 @@
           :src="polygon"
           alt="polygon"
           loading="lazy"
-          data-aos="fade-right"
-          data-aos-delay="700"
-          data-aos-offset="960"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
           class="relative ml-auto rotate-45 xl:right-20"
         />
         <img
           :src="polygon"
           loading="lazy"
-          data-aos="fade-left"
-          data-aos-delay="700"
-          data-aos-offset="960"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
           alt="polygon"
           class="relative hidden md:block top-32 left-16 lg:left-24 xl:left-44 rotate-12"
         />
         <img
-          data-aos="fade-right"
-          data-aos-delay="700"
-          data-aos-offset="960"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
           :src="whitepolygon"
           alt="white polygon"
           loading="lazy"
@@ -39,19 +24,9 @@
           :src="circle"
           loading="lazy"
           alt="circle"
-          data-aos="fade-left"
-          data-aos-delay="700"
-          data-aos-offset="960"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
           class="relative left-4"
         />
         <div
-          data-aos="fade-up"
-          data-aos-delay="700"
-          data-aos-offset="960"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
           class="rounded-full max-w-xs mx-auto md:max-w-sm xl:max-w-[26rem] outline-gray-500 outline-dashed outline-2"
         >
           <div class="py-10 xs:py-14 md:py-24 text-center">
@@ -89,21 +64,11 @@
         <img
           :src="whitepolygon"
           loading="lazy"
-          data-aos="fade-left"
-          data-aos-delay="700"
-          data-aos-offset="960"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
           alt="white polygon"
           class="relative lg:bottom-5 rotate-45 xl:left-12"
         />
         <img
           :src="circle"
-          data-aos="fade-right"
-          data-aos-delay="700"
-          data-aos-offset="960"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
           loading="lazy"
           alt="circle"
           class="relative ml-auto xl:right-32 rotate-90"
