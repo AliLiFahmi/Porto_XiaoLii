@@ -7,12 +7,12 @@
         >
           My Experience
         </h1>
-        <progress
+        <p
           class="text-lg 2xl:text-xl text-ghost font-pops"
         >
           This is some of my experience during my time in the web development
           field.
-        </progress>
+        </p>
       </div>
       <div
         class="flex flex-wrap px-5 xl:px-10 2xl:px-12 items-center justify-center mb-8"
